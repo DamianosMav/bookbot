@@ -11,11 +11,7 @@ def main():
         
 
 def word_count(text):
-    count = 0
-    words = text.split()
-    for word in words:
-        count += 1
-    return count
+    return len(text.split())
 
 def char_count(text):
     chars_present = {}
